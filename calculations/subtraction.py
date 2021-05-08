@@ -1,7 +1,7 @@
-def subtraction(num1, num2):
-    total = num1 - num2
+def subtraction(additive, subtractive):
+    difference = additive - subtractive
 
-    if (total % 1) == 0:
-        return int(total)
+    if (difference % 1) == 0:
+        return int(difference)
     else:
-        return total
+        return difference

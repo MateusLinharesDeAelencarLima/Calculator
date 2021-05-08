@@ -1,7 +1,7 @@
-def multiplication(num1, num2):
-    total = num1 * num2
+def multiplication(factor, multiplier):
+    product = factor * multiplier
 
-    if (total % 1) == 0:
-        return int(total)
+    if (product % 1) == 0:
+        return int(product)
     else:
-        return total
+        return product

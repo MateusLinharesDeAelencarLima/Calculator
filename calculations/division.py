@@ -1,7 +1,7 @@
-def division(num1, num2):
-    total = num1 / num2
+def division(dividend, divider):
+    quotient = dividend / divider
 
-    if (total % 1) == 0:
-        return int(total)
+    if (quotient % 1) == 0:
+        return int(quotient)
     else:
-        return total
+        return quotient
