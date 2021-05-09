@@ -1,9 +1,9 @@
-from calculations.summation import summation
-from calculations.subtraction import subtraction
-from calculations.multiplication import multiplication
-from calculations.division import division
-from calculations.exponential import exponential
-from calculations.root import root
+from functions.summation import summation
+from functions.subtraction import subtraction
+from functions.multiplication import multiplication
+from functions.division import division
+from functions.exponential import exponential
+from functions.root import root
 
 num1 = float(input('número 1: '))
 num2 = float(input('número 2: '))
