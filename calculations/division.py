@@ -1,7 +1,13 @@
 def division(dividend, divider):
-    quotient = dividend / divider
+    if divider == 0:
+        error = "Zero não pode ser um divisor."
 
-    if (quotient % 1) == 0:
-        return int(quotient)
+        return error
+
     else:
-        return quotient
+        quotient = dividend / divider
+
+        if (quotient % 1) == 0:
+            return int(quotient)
+        else:
+            return quotient

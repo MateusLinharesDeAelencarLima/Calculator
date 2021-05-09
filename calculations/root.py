@@ -1,7 +1,12 @@
 def root(rooting, index):
-    root = rooting ** (1/index)
+    if index == 0:
+        error = "Zero nao pode ser uma raiz."
 
-    if (root % 1) == 0:
-        return int(root)
+        return error
     else:
-        return root
+        root = rooting ** (1/index)
+
+        if (root % 1) == 0:
+            return int(root)
+        else:
+            return root
